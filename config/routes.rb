@@ -1,4 +1,5 @@
 Animezing::Application.routes.draw do
+  get "users/new"
   root 'pages#home'
 
   match '/help', to: 'pages#help', via: 'get'
